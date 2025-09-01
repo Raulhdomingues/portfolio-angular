@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(92, 92, 194);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: 80px;
+}
